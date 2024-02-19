@@ -1,0 +1,66 @@
+h1{
+    color: white;
+    text-align: center;
+}
+body{
+    background-color: black;
+}
+#menu{
+    border: 2px solid black;
+    width: 25%;
+    height: 40px;
+    float: left;
+    padding: 20px;
+    background-color: silver;
+    position: fixed;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#lada1{
+    float: right;
+    width: 380px;
+    color: aliceblue;
+    display: block;
+}
+#erdekes{
+    color: white;
+    font-size: 30px;
+    margin: 10px 10px 10px 10px;
+    padding-left: 40%;
+    padding-top: 43px;
+}
+img{
+    width: 400px;
+}
+nav{
+    width: 40%;
+    justify-content: space-evenly;
+    display: flex;
+    list-style-type: none;
+    font-size: xx-large;
+    position: fixed;
+}
+.ad{
+    background-color: aliceblue;
+    width: 30%;
+    height: 100%;
+    position: fixed;
+    float: left;
+    scale: 100%;
+    transition: all 1s;
+    margin-top: 7%;
+    margin-left: 30px;
+    text-align: center;
+}
+
+.ad:hover{
+    scale: 120%;
+    transition: all 1s;
+    background-image: linear-gradient(to bottom, red, green);
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
